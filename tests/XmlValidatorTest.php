@@ -2,7 +2,7 @@
  
 use Ottosmops\Xmlvalidator\XmlValidator;
  
-class XmlValidatorTest extends PHPUnit_Framework_TestCase {
+class XmlValidatorTest extends \PHPUnit_Framework_TestCase {
 
     /*
         mets_001.xml => valide
