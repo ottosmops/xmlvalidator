@@ -1,0 +1,2483 @@
+<?xml version="1.0" encoding="UTF-8"?><mets:mets ID="es-701" OBJID="es-701" 
+    xmlns:mods="http://www.loc.gov/mods/v3" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:mets="http://www.loc.gov/METS/" 
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
+                        http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
+    <mets:metsHdr ID="HDR_es-701"  CREATEDATE="2017-10-06T13:03:38+00:00" RECORDSTATUS="completed">
+        <mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+            <mets:name>Burgerbibliothek Bern</mets:name>
+        </mets:agent>
+            <mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
+            <mets:name>Nadine Fischer</mets:name>
+        </mets:agent>
+        </mets:metsHdr>
+    <mets:dmdSec ID="DMDSEC">
+    <mets:mdWrap ID="MODSSEC" MDTYPE="MODS" MIMETYPE="text/xml">
+        <mets:xmlData>
+            <mods:mods>
+                <mods:identifier type="local">ES 70.1</mods:identifier>
+                <mods:titleInfo>
+                    <mods:title>Platter-Herbar</mods:title>
+                                    </mods:titleInfo>
+                                                            <mods:name type="personal">
+                            <mods:role>
+                                <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                            </mods:role>
+                            <mods:namePart type="family">Platter</mods:namePart>
+                                                            <mods:namePart type="given">Felix</mods:namePart>
+                                                                                        <mods:namePart type="date">1536-1614</mods:namePart>
+                                                    </mods:name>
+                                                                        <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
+                                                <mods:originInfo>
+                    <mods:dateIssued encoding="iso8601">1614</mods:dateIssued>
+                </mods:originInfo>
+                                                                            <mods:language>
+                            <mods:languageTerm type="code" authority="iso639-2b">ger</mods:languageTerm>
+                        </mods:language>
+                                            <mods:language>
+                            <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+                        </mods:language>
+                                                                        <mods:physicalDescription>
+                                                    <mods:extent>300 Bl.</mods:extent>
+                                                                            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+                                            </mods:physicalDescription>
+                                                    <mods:abstract type="contents">abstract</mods:abstract>
+                                <mods:identifier type="doi">doi</mods:identifier>
+            </mods:mods>
+        </mets:xmlData>
+    </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="AMDSEC">
+        <mets:rightsMD ID="RIGHTSMD">
+            <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <mets:xmlData>
+                    <!-- https://github.com/dmj/dfgviewer-schema -->
+                <dv:rights xmlns:dv="http://dfg-viewer.de/">
+                    <dv:owner>Burgerbibliothek Bern</dv:owner>
+                    <dv:ownerLogo>http://testplatter.burgerbib.ch/Logo/logo.png</dv:ownerLogo>
+                    <dv:ownerSiteURL>https://www.burgerbib.ch/</dv:ownerSiteURL>
+                    <dv:ownerContact>mailto:bbb@burgerbib.ch</dv:ownerContact>
+                    <dv:license>pdm</dv:license>
+                </dv:rights>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:digiprovMD ID="DIGIPROVMD">
+            <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <mets:xmlData>
+                    <dv:links xmlns:dv="http://dfg-viewer.de/">
+                                                                                    <dv:reference linktext="Online-Archivkatalog">
+                                    http://katalog.burgerbib.ch/detail.aspx?ID=176780
+                                </dv:reference>
+                                                                                                        <dv:presentation>
+                                https://www.burgerbib.ch/
+                            </dv:presentation>
+                                            </dv:links>
+                </mets:xmlData>
+            </mets:mdWrap>    
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:fileSec ID="FILESEC">
+        <mets:fileGrp USE="DEFAULT">
+                    <mets:file ID="DEFAULT_ES_70_1_001.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_001.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_002.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_002.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_003.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_003.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_004.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_004.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_005.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_005.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_006.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_006.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_007.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_007.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_008.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_008.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_009.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_009.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_010.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_010.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_011.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_011.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_012.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_012.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_013.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_013.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_014.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_014.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_015.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_015.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_016.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_016.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_017.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_017.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_018.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_018.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_019.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_019.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_020.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_020.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_021.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_021.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_022.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_022.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_023.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_023.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_024.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_024.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_025.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_025.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_026.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_026.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_027.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_027.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_028.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_028.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_029.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_029.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_030.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_030.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_031.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_031.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_032.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_032.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_033.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_033.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_034.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_034.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_035.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_035.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_036.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_036.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_037.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_037.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_038.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_038.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_039.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_039.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_040.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_040.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_041.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_041.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_042.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_042.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_043.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_043.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_044.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_044.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_045.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_045.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_046.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_046.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_047.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_047.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_048.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_048.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_049.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_049.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_050.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_050.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_051.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_051.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_052.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_052.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_053.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_053.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_054.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_054.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_055.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_055.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_056.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_056.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_057.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_057.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_058.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_058.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_059.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_059.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_060.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_060.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_061.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_061.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_062.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_062.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_063.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_063.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_064.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_064.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_065.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_065.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_066.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_066.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_067.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_067.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_068.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_068.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_069.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_069.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_070.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_070.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_071.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_071.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_072.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_072.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_073.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_073.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_074.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_074.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_075.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_075.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_076.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_076.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_077.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_077.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_078.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_078.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_079.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_079.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_080.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_080.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_081.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_081.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_082.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_082.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_083.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_083.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_084.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_084.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_085.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_085.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_086.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_086.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_087.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_087.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_088.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_088.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_089.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_089.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_090.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_090.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_091.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_091.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_092.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_092.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_093.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_093.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_094.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_094.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_095.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_095.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_096.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_096.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_097.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_097.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_098.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_098.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_099.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_099.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_100.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_100.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_101.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_101.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_102.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_102.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_103.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_103.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_104.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_104.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_105.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_105.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_106.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_106.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_107.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_107.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_108.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_108.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_109.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_109.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_110.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_110.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_111.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_111.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_112.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_112.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_113.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_113.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_114.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_114.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_115.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_115.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_116.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_116.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_117.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_117.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_118.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_118.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_119.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_119.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_120.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_120.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_121.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_121.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_122.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_122.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_123.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_123.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_124.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_124.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_125.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_125.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_126.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_126.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_127.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_127.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_128.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_128.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_129.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_129.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_130.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_130.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_131.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_131.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_132.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_132.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_133.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_133.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_134.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_134.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_135.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_135.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_136.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_136.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_137.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_137.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_138.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_138.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_139.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_139.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_140.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_140.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_141.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_141.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_142.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_142.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_143.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_143.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_144.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_144.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_145.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_145.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_146.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_146.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_147.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_147.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_148.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_148.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_149.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_149.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_150.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_150.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_151.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_151.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_152.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_152.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_153.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_153.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_154.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_154.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_155.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_155.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_156.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_156.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_157.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_157.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_158.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_158.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_159.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_159.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_160.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_160.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_161.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_161.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_162.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_162.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_163.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_163.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_164.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_164.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_165.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_165.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_166.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_166.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_167.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_167.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_168.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_168.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_169.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_169.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_170.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_170.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_171.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_171.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_172.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_172.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_173.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_173.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_174.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_174.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_175.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_175.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_176.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_176.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_177.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_177.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_178.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_178.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_179.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_179.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_180.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_180.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_181.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_181.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_182.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_182.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_183.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_183.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_184.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_184.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_185.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_185.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_186.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_186.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_187.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_187.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_188.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_188.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_189.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_189.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_190.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_190.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_191.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_191.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_192.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_192.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_193.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_193.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_194.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_194.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_195.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_195.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_196.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_196.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_197.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_197.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_198.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_198.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_199.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_199.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_200.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_200.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_201.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_201.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_202.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_202.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_203.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_203.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_204.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_204.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_205.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_205.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_206.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_206.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_207.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_207.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_208.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_208.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_209.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_209.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_210.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_210.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_211.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_211.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_212.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_212.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_213.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_213.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_214.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_214.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_215.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_215.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_216.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_216.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_217.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_217.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_218.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_218.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_219.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_219.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_220.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_220.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_221.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_221.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_222.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_222.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_223.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_223.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_224.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_224.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_225.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_225.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_226.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_226.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_227.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_227.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_228.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_228.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_229.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_229.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_230.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_230.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_231.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_231.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_232.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_232.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_233.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_233.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_234.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_234.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_235.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_235.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_236.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_236.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_237.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_237.jpg"/>
+            </mets:file>
+                    <mets:file ID="DEFAULT_ES_70_1_238.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-master/ES_70_1_238.jpg"/>
+            </mets:file>
+                </mets:fileGrp>
+        <mets:fileGrp USE="THUMBS">
+                    <mets:file ID="THUMB_ES_70_1_001.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_001.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_002.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_002.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_003.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_003.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_004.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_004.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_005.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_005.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_006.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_006.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_007.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_007.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_008.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_008.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_009.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_009.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_010.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_010.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_011.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_011.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_012.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_012.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_013.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_013.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_014.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_014.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_015.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_015.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_016.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_016.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_017.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_017.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_018.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_018.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_019.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_019.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_020.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_020.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_021.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_021.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_022.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_022.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_023.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_023.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_024.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_024.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_025.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_025.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_026.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_026.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_027.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_027.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_028.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_028.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_029.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_029.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_030.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_030.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_031.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_031.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_032.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_032.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_033.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_033.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_034.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_034.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_035.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_035.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_036.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_036.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_037.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_037.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_038.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_038.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_039.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_039.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_040.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_040.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_041.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_041.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_042.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_042.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_043.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_043.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_044.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_044.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_045.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_045.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_046.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_046.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_047.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_047.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_048.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_048.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_049.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_049.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_050.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_050.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_051.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_051.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_052.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_052.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_053.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_053.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_054.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_054.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_055.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_055.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_056.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_056.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_057.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_057.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_058.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_058.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_059.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_059.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_060.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_060.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_061.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_061.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_062.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_062.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_063.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_063.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_064.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_064.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_065.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_065.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_066.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_066.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_067.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_067.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_068.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_068.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_069.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_069.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_070.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_070.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_071.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_071.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_072.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_072.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_073.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_073.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_074.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_074.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_075.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_075.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_076.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_076.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_077.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_077.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_078.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_078.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_079.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_079.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_080.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_080.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_081.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_081.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_082.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_082.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_083.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_083.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_084.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_084.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_085.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_085.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_086.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_086.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_087.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_087.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_088.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_088.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_089.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_089.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_090.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_090.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_091.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_091.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_092.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_092.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_093.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_093.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_094.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_094.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_095.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_095.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_096.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_096.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_097.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_097.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_098.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_098.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_099.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_099.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_100.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_100.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_101.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_101.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_102.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_102.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_103.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_103.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_104.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_104.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_105.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_105.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_106.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_106.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_107.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_107.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_108.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_108.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_109.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_109.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_110.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_110.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_111.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_111.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_112.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_112.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_113.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_113.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_114.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_114.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_115.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_115.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_116.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_116.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_117.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_117.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_118.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_118.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_119.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_119.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_120.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_120.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_121.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_121.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_122.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_122.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_123.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_123.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_124.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_124.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_125.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_125.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_126.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_126.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_127.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_127.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_128.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_128.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_129.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_129.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_130.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_130.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_131.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_131.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_132.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_132.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_133.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_133.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_134.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_134.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_135.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_135.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_136.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_136.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_137.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_137.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_138.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_138.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_139.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_139.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_140.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_140.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_141.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_141.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_142.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_142.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_143.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_143.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_144.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_144.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_145.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_145.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_146.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_146.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_147.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_147.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_148.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_148.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_149.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_149.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_150.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_150.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_151.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_151.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_152.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_152.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_153.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_153.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_154.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_154.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_155.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_155.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_156.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_156.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_157.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_157.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_158.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_158.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_159.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_159.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_160.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_160.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_161.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_161.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_162.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_162.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_163.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_163.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_164.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_164.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_165.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_165.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_166.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_166.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_167.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_167.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_168.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_168.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_169.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_169.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_170.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_170.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_171.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_171.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_172.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_172.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_173.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_173.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_174.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_174.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_175.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_175.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_176.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_176.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_177.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_177.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_178.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_178.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_179.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_179.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_180.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_180.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_181.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_181.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_182.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_182.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_183.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_183.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_184.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_184.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_185.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_185.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_186.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_186.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_187.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_187.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_188.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_188.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_189.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_189.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_190.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_190.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_191.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_191.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_192.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_192.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_193.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_193.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_194.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_194.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_195.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_195.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_196.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_196.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_197.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_197.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_198.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_198.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_199.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_199.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_200.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_200.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_201.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_201.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_202.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_202.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_203.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_203.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_204.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_204.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_205.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_205.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_206.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_206.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_207.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_207.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_208.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_208.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_209.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_209.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_210.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_210.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_211.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_211.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_212.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_212.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_213.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_213.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_214.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_214.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_215.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_215.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_216.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_216.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_217.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_217.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_218.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_218.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_219.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_219.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_220.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_220.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_221.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_221.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_222.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_222.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_223.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_223.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_224.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_224.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_225.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_225.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_226.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_226.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_227.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_227.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_228.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_228.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_229.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_229.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_230.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_230.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_231.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_231.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_232.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_232.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_233.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_233.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_234.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_234.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_235.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_235.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_236.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_236.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_237.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_237.jpg"/>
+            </mets:file>
+                    <mets:file ID="THUMB_ES_70_1_238.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL" xlink:href="http://testplatter.burgerbib.ch/Bilddateien/ES_70_1-thumbs/ES_70_1_238.jpg"/>
+            </mets:file>
+                </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="PHYSICAL">  
+        <mets:div ID="PHYSICALDIV" TYPE="physSequence" DMDID="DMDSEC" ADMID="AMDSEC">
+                    <mets:div ID="PHYSICALDIV_ES_70_1_001.jpg" ORDER="1" TYPE="page" ORDERLABEL="">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_001.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_001.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_002.jpg" ORDER="2" TYPE="page" ORDERLABEL="">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_002.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_002.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_003.jpg" ORDER="3" TYPE="page" ORDERLABEL="I">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_003.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_003.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_004.jpg" ORDER="4" TYPE="page" ORDERLABEL="II">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_004.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_004.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_005.jpg" ORDER="5" TYPE="page" ORDERLABEL="III">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_005.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_005.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_006.jpg" ORDER="6" TYPE="page" ORDERLABEL="IV">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_006.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_006.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_007.jpg" ORDER="7" TYPE="page" ORDERLABEL="1">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_007.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_007.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_008.jpg" ORDER="8" TYPE="page" ORDERLABEL="2">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_008.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_008.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_009.jpg" ORDER="9" TYPE="page" ORDERLABEL="3">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_009.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_009.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_010.jpg" ORDER="10" TYPE="page" ORDERLABEL="6">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_010.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_010.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_011.jpg" ORDER="11" TYPE="page" ORDERLABEL="7">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_011.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_011.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_012.jpg" ORDER="12" TYPE="page" ORDERLABEL="10">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_012.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_012.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_013.jpg" ORDER="13" TYPE="page" ORDERLABEL="11">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_013.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_013.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_014.jpg" ORDER="14" TYPE="page" ORDERLABEL="14">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_014.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_014.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_015.jpg" ORDER="15" TYPE="page" ORDERLABEL="15">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_015.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_015.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_016.jpg" ORDER="16" TYPE="page" ORDERLABEL="18">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_016.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_016.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_017.jpg" ORDER="17" TYPE="page" ORDERLABEL="19">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_017.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_017.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_018.jpg" ORDER="18" TYPE="page" ORDERLABEL="22">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_018.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_018.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_019.jpg" ORDER="19" TYPE="page" ORDERLABEL="23">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_019.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_019.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_020.jpg" ORDER="20" TYPE="page" ORDERLABEL="26">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_020.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_020.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_021.jpg" ORDER="21" TYPE="page" ORDERLABEL="27">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_021.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_021.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_022.jpg" ORDER="22" TYPE="page" ORDERLABEL="30">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_022.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_022.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_023.jpg" ORDER="23" TYPE="page" ORDERLABEL="31">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_023.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_023.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_024.jpg" ORDER="24" TYPE="page" ORDERLABEL="34">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_024.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_024.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_025.jpg" ORDER="25" TYPE="page" ORDERLABEL="35">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_025.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_025.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_026.jpg" ORDER="26" TYPE="page" ORDERLABEL="38">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_026.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_026.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_027.jpg" ORDER="27" TYPE="page" ORDERLABEL="39">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_027.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_027.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_028.jpg" ORDER="28" TYPE="page" ORDERLABEL="42">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_028.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_028.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_029.jpg" ORDER="29" TYPE="page" ORDERLABEL="43">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_029.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_029.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_030.jpg" ORDER="30" TYPE="page" ORDERLABEL="46">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_030.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_030.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_031.jpg" ORDER="31" TYPE="page" ORDERLABEL="47">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_031.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_031.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_032.jpg" ORDER="32" TYPE="page" ORDERLABEL="50">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_032.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_032.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_033.jpg" ORDER="33" TYPE="page" ORDERLABEL="51">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_033.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_033.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_034.jpg" ORDER="34" TYPE="page" ORDERLABEL="54">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_034.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_034.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_035.jpg" ORDER="35" TYPE="page" ORDERLABEL="55">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_035.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_035.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_036.jpg" ORDER="36" TYPE="page" ORDERLABEL="58">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_036.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_036.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_037.jpg" ORDER="37" TYPE="page" ORDERLABEL="59">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_037.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_037.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_038.jpg" ORDER="38" TYPE="page" ORDERLABEL="62">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_038.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_038.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_039.jpg" ORDER="39" TYPE="page" ORDERLABEL="63">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_039.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_039.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_040.jpg" ORDER="40" TYPE="page" ORDERLABEL="66">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_040.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_040.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_041.jpg" ORDER="41" TYPE="page" ORDERLABEL="67">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_041.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_041.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_042.jpg" ORDER="42" TYPE="page" ORDERLABEL="70">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_042.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_042.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_043.jpg" ORDER="43" TYPE="page" ORDERLABEL="71">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_043.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_043.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_044.jpg" ORDER="44" TYPE="page" ORDERLABEL="74">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_044.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_044.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_045.jpg" ORDER="45" TYPE="page" ORDERLABEL="75">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_045.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_045.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_046.jpg" ORDER="46" TYPE="page" ORDERLABEL="76">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_046.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_046.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_047.jpg" ORDER="47" TYPE="page" ORDERLABEL="79">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_047.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_047.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_048.jpg" ORDER="48" TYPE="page" ORDERLABEL="82">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_048.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_048.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_049.jpg" ORDER="49" TYPE="page" ORDERLABEL="83">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_049.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_049.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_050.jpg" ORDER="50" TYPE="page" ORDERLABEL="86">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_050.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_050.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_051.jpg" ORDER="51" TYPE="page" ORDERLABEL="87">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_051.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_051.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_052.jpg" ORDER="52" TYPE="page" ORDERLABEL="90">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_052.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_052.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_053.jpg" ORDER="53" TYPE="page" ORDERLABEL="91">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_053.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_053.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_054.jpg" ORDER="54" TYPE="page" ORDERLABEL="94">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_054.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_054.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_055.jpg" ORDER="55" TYPE="page" ORDERLABEL="95">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_055.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_055.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_056.jpg" ORDER="56" TYPE="page" ORDERLABEL="96">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_056.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_056.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_057.jpg" ORDER="57" TYPE="page" ORDERLABEL="99">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_057.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_057.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_058.jpg" ORDER="58" TYPE="page" ORDERLABEL="102">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_058.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_058.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_059.jpg" ORDER="59" TYPE="page" ORDERLABEL="103">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_059.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_059.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_060.jpg" ORDER="60" TYPE="page" ORDERLABEL="106">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_060.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_060.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_061.jpg" ORDER="61" TYPE="page" ORDERLABEL="107">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_061.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_061.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_062.jpg" ORDER="62" TYPE="page" ORDERLABEL="110">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_062.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_062.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_063.jpg" ORDER="63" TYPE="page" ORDERLABEL="111">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_063.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_063.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_064.jpg" ORDER="64" TYPE="page" ORDERLABEL="114">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_064.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_064.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_065.jpg" ORDER="65" TYPE="page" ORDERLABEL="115">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_065.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_065.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_066.jpg" ORDER="66" TYPE="page" ORDERLABEL="118">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_066.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_066.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_067.jpg" ORDER="67" TYPE="page" ORDERLABEL="119">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_067.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_067.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_068.jpg" ORDER="68" TYPE="page" ORDERLABEL="122">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_068.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_068.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_069.jpg" ORDER="69" TYPE="page" ORDERLABEL="123">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_069.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_069.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_070.jpg" ORDER="70" TYPE="page" ORDERLABEL="126">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_070.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_070.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_071.jpg" ORDER="71" TYPE="page" ORDERLABEL="127">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_071.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_071.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_072.jpg" ORDER="72" TYPE="page" ORDERLABEL="130">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_072.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_072.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_073.jpg" ORDER="73" TYPE="page" ORDERLABEL="131">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_073.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_073.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_074.jpg" ORDER="74" TYPE="page" ORDERLABEL="134">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_074.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_074.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_075.jpg" ORDER="75" TYPE="page" ORDERLABEL="135">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_075.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_075.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_076.jpg" ORDER="76" TYPE="page" ORDERLABEL="138">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_076.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_076.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_077.jpg" ORDER="77" TYPE="page" ORDERLABEL="139">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_077.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_077.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_078.jpg" ORDER="78" TYPE="page" ORDERLABEL="142">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_078.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_078.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_079.jpg" ORDER="79" TYPE="page" ORDERLABEL="143">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_079.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_079.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_080.jpg" ORDER="80" TYPE="page" ORDERLABEL="146">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_080.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_080.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_081.jpg" ORDER="81" TYPE="page" ORDERLABEL="147">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_081.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_081.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_082.jpg" ORDER="82" TYPE="page" ORDERLABEL="150">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_082.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_082.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_083.jpg" ORDER="83" TYPE="page" ORDERLABEL="151">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_083.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_083.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_084.jpg" ORDER="84" TYPE="page" ORDERLABEL="154">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_084.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_084.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_085.jpg" ORDER="85" TYPE="page" ORDERLABEL="155">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_085.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_085.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_086.jpg" ORDER="86" TYPE="page" ORDERLABEL="158">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_086.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_086.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_087.jpg" ORDER="87" TYPE="page" ORDERLABEL="159">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_087.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_087.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_088.jpg" ORDER="88" TYPE="page" ORDERLABEL="162">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_088.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_088.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_089.jpg" ORDER="89" TYPE="page" ORDERLABEL="163">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_089.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_089.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_090.jpg" ORDER="90" TYPE="page" ORDERLABEL="166">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_090.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_090.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_091.jpg" ORDER="91" TYPE="page" ORDERLABEL="167">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_091.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_091.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_092.jpg" ORDER="92" TYPE="page" ORDERLABEL="168">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_092.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_092.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_093.jpg" ORDER="93" TYPE="page" ORDERLABEL="171">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_093.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_093.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_094.jpg" ORDER="94" TYPE="page" ORDERLABEL="174">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_094.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_094.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_095.jpg" ORDER="95" TYPE="page" ORDERLABEL="175">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_095.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_095.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_096.jpg" ORDER="96" TYPE="page" ORDERLABEL="178">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_096.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_096.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_097.jpg" ORDER="97" TYPE="page" ORDERLABEL="179">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_097.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_097.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_098.jpg" ORDER="98" TYPE="page" ORDERLABEL="182">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_098.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_098.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_099.jpg" ORDER="99" TYPE="page" ORDERLABEL="183">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_099.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_099.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_100.jpg" ORDER="100" TYPE="page" ORDERLABEL="186">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_100.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_100.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_101.jpg" ORDER="101" TYPE="page" ORDERLABEL="187">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_101.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_101.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_102.jpg" ORDER="102" TYPE="page" ORDERLABEL="190">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_102.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_102.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_103.jpg" ORDER="103" TYPE="page" ORDERLABEL="191">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_103.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_103.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_104.jpg" ORDER="104" TYPE="page" ORDERLABEL="194">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_104.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_104.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_105.jpg" ORDER="105" TYPE="page" ORDERLABEL="195">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_105.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_105.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_106.jpg" ORDER="106" TYPE="page" ORDERLABEL="198">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_106.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_106.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_107.jpg" ORDER="107" TYPE="page" ORDERLABEL="199">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_107.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_107.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_108.jpg" ORDER="108" TYPE="page" ORDERLABEL="202">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_108.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_108.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_109.jpg" ORDER="109" TYPE="page" ORDERLABEL="203">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_109.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_109.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_110.jpg" ORDER="110" TYPE="page" ORDERLABEL="204">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_110.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_110.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_111.jpg" ORDER="111" TYPE="page" ORDERLABEL="207">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_111.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_111.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_112.jpg" ORDER="112" TYPE="page" ORDERLABEL="210">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_112.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_112.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_113.jpg" ORDER="113" TYPE="page" ORDERLABEL="211">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_113.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_113.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_114.jpg" ORDER="114" TYPE="page" ORDERLABEL="214">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_114.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_114.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_115.jpg" ORDER="115" TYPE="page" ORDERLABEL="215">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_115.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_115.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_116.jpg" ORDER="116" TYPE="page" ORDERLABEL="218">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_116.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_116.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_117.jpg" ORDER="117" TYPE="page" ORDERLABEL="219">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_117.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_117.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_118.jpg" ORDER="118" TYPE="page" ORDERLABEL="222">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_118.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_118.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_119.jpg" ORDER="119" TYPE="page" ORDERLABEL="223">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_119.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_119.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_120.jpg" ORDER="120" TYPE="page" ORDERLABEL="224">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_120.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_120.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_121.jpg" ORDER="121" TYPE="page" ORDERLABEL="227">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_121.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_121.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_122.jpg" ORDER="122" TYPE="page" ORDERLABEL="230">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_122.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_122.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_123.jpg" ORDER="123" TYPE="page" ORDERLABEL="231">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_123.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_123.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_124.jpg" ORDER="124" TYPE="page" ORDERLABEL="234">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_124.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_124.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_125.jpg" ORDER="125" TYPE="page" ORDERLABEL="235">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_125.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_125.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_126.jpg" ORDER="126" TYPE="page" ORDERLABEL="238">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_126.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_126.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_127.jpg" ORDER="127" TYPE="page" ORDERLABEL="239">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_127.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_127.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_128.jpg" ORDER="128" TYPE="page" ORDERLABEL="242">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_128.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_128.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_129.jpg" ORDER="129" TYPE="page" ORDERLABEL="243">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_129.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_129.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_130.jpg" ORDER="130" TYPE="page" ORDERLABEL="246">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_130.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_130.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_131.jpg" ORDER="131" TYPE="page" ORDERLABEL="247">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_131.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_131.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_132.jpg" ORDER="132" TYPE="page" ORDERLABEL="250">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_132.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_132.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_133.jpg" ORDER="133" TYPE="page" ORDERLABEL="251">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_133.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_133.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_134.jpg" ORDER="134" TYPE="page" ORDERLABEL="252">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_134.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_134.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_135.jpg" ORDER="135" TYPE="page" ORDERLABEL="255">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_135.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_135.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_136.jpg" ORDER="136" TYPE="page" ORDERLABEL="258">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_136.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_136.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_137.jpg" ORDER="137" TYPE="page" ORDERLABEL="259">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_137.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_137.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_138.jpg" ORDER="138" TYPE="page" ORDERLABEL="262">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_138.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_138.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_139.jpg" ORDER="139" TYPE="page" ORDERLABEL="263">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_139.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_139.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_140.jpg" ORDER="140" TYPE="page" ORDERLABEL="266">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_140.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_140.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_141.jpg" ORDER="141" TYPE="page" ORDERLABEL="267">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_141.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_141.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_142.jpg" ORDER="142" TYPE="page" ORDERLABEL="270">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_142.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_142.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_143.jpg" ORDER="143" TYPE="page" ORDERLABEL="271">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_143.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_143.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_144.jpg" ORDER="144" TYPE="page" ORDERLABEL="274">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_144.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_144.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_145.jpg" ORDER="145" TYPE="page" ORDERLABEL="275">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_145.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_145.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_146.jpg" ORDER="146" TYPE="page" ORDERLABEL="278">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_146.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_146.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_147.jpg" ORDER="147" TYPE="page" ORDERLABEL="279">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_147.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_147.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_148.jpg" ORDER="148" TYPE="page" ORDERLABEL="282">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_148.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_148.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_149.jpg" ORDER="149" TYPE="page" ORDERLABEL="283">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_149.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_149.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_150.jpg" ORDER="150" TYPE="page" ORDERLABEL="286">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_150.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_150.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_151.jpg" ORDER="151" TYPE="page" ORDERLABEL="287">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_151.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_151.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_152.jpg" ORDER="152" TYPE="page" ORDERLABEL="290">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_152.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_152.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_153.jpg" ORDER="153" TYPE="page" ORDERLABEL="291">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_153.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_153.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_154.jpg" ORDER="154" TYPE="page" ORDERLABEL="292">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_154.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_154.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_155.jpg" ORDER="155" TYPE="page" ORDERLABEL="291">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_155.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_155.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_156.jpg" ORDER="156" TYPE="page" ORDERLABEL="293">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_156.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_156.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_157.jpg" ORDER="157" TYPE="page" ORDERLABEL="294">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_157.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_157.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_158.jpg" ORDER="158" TYPE="page" ORDERLABEL="296">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_158.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_158.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_159.jpg" ORDER="159" TYPE="page" ORDERLABEL="301">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_159.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_159.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_160.jpg" ORDER="160" TYPE="page" ORDERLABEL="304">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_160.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_160.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_161.jpg" ORDER="161" TYPE="page" ORDERLABEL="305">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_161.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_161.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_162.jpg" ORDER="162" TYPE="page" ORDERLABEL="308">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_162.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_162.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_163.jpg" ORDER="163" TYPE="page" ORDERLABEL="309">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_163.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_163.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_164.jpg" ORDER="164" TYPE="page" ORDERLABEL="312">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_164.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_164.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_165.jpg" ORDER="165" TYPE="page" ORDERLABEL="313">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_165.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_165.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_166.jpg" ORDER="166" TYPE="page" ORDERLABEL="316">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_166.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_166.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_167.jpg" ORDER="167" TYPE="page" ORDERLABEL="317">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_167.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_167.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_168.jpg" ORDER="168" TYPE="page" ORDERLABEL="320">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_168.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_168.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_169.jpg" ORDER="169" TYPE="page" ORDERLABEL="321">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_169.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_169.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_170.jpg" ORDER="170" TYPE="page" ORDERLABEL="324">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_170.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_170.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_171.jpg" ORDER="171" TYPE="page" ORDERLABEL="325">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_171.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_171.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_172.jpg" ORDER="172" TYPE="page" ORDERLABEL="328">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_172.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_172.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_173.jpg" ORDER="173" TYPE="page" ORDERLABEL="329">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_173.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_173.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_174.jpg" ORDER="174" TYPE="page" ORDERLABEL="332">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_174.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_174.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_175.jpg" ORDER="175" TYPE="page" ORDERLABEL="333">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_175.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_175.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_176.jpg" ORDER="176" TYPE="page" ORDERLABEL="336">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_176.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_176.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_177.jpg" ORDER="177" TYPE="page" ORDERLABEL="337">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_177.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_177.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_178.jpg" ORDER="178" TYPE="page" ORDERLABEL="340">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_178.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_178.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_179.jpg" ORDER="179" TYPE="page" ORDERLABEL="341">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_179.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_179.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_180.jpg" ORDER="180" TYPE="page" ORDERLABEL="344">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_180.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_180.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_181.jpg" ORDER="181" TYPE="page" ORDERLABEL="345">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_181.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_181.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_182.jpg" ORDER="182" TYPE="page" ORDERLABEL="348">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_182.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_182.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_183.jpg" ORDER="183" TYPE="page" ORDERLABEL="349">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_183.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_183.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_184.jpg" ORDER="184" TYPE="page" ORDERLABEL="352">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_184.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_184.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_185.jpg" ORDER="185" TYPE="page" ORDERLABEL="353">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_185.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_185.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_186.jpg" ORDER="186" TYPE="page" ORDERLABEL="356">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_186.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_186.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_187.jpg" ORDER="187" TYPE="page" ORDERLABEL="357">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_187.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_187.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_188.jpg" ORDER="188" TYPE="page" ORDERLABEL="260">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_188.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_188.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_189.jpg" ORDER="189" TYPE="page" ORDERLABEL="361">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_189.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_189.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_190.jpg" ORDER="190" TYPE="page" ORDERLABEL="264">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_190.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_190.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_191.jpg" ORDER="191" TYPE="page" ORDERLABEL="365">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_191.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_191.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_192.jpg" ORDER="192" TYPE="page" ORDERLABEL="368">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_192.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_192.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_193.jpg" ORDER="193" TYPE="page" ORDERLABEL="369">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_193.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_193.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_194.jpg" ORDER="194" TYPE="page" ORDERLABEL="372">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_194.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_194.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_195.jpg" ORDER="195" TYPE="page" ORDERLABEL="373">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_195.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_195.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_196.jpg" ORDER="196" TYPE="page" ORDERLABEL="376">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_196.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_196.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_197.jpg" ORDER="197" TYPE="page" ORDERLABEL="377">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_197.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_197.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_198.jpg" ORDER="198" TYPE="page" ORDERLABEL="380">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_198.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_198.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_199.jpg" ORDER="199" TYPE="page" ORDERLABEL="381">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_199.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_199.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_200.jpg" ORDER="200" TYPE="page" ORDERLABEL="384">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_200.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_200.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_201.jpg" ORDER="201" TYPE="page" ORDERLABEL="385">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_201.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_201.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_202.jpg" ORDER="202" TYPE="page" ORDERLABEL="388">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_202.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_202.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_203.jpg" ORDER="203" TYPE="page" ORDERLABEL="389">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_203.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_203.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_204.jpg" ORDER="204" TYPE="page" ORDERLABEL="392">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_204.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_204.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_205.jpg" ORDER="205" TYPE="page" ORDERLABEL="393">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_205.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_205.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_206.jpg" ORDER="206" TYPE="page" ORDERLABEL="396">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_206.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_206.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_207.jpg" ORDER="207" TYPE="page" ORDERLABEL="397">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_207.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_207.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_208.jpg" ORDER="208" TYPE="page" ORDERLABEL="400">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_208.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_208.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_209.jpg" ORDER="209" TYPE="page" ORDERLABEL="401">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_209.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_209.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_210.jpg" ORDER="210" TYPE="page" ORDERLABEL="404">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_210.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_210.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_211.jpg" ORDER="211" TYPE="page" ORDERLABEL="405">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_211.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_211.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_212.jpg" ORDER="212" TYPE="page" ORDERLABEL="408">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_212.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_212.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_213.jpg" ORDER="213" TYPE="page" ORDERLABEL="409">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_213.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_213.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_214.jpg" ORDER="214" TYPE="page" ORDERLABEL="412">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_214.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_214.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_215.jpg" ORDER="215" TYPE="page" ORDERLABEL="413">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_215.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_215.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_216.jpg" ORDER="216" TYPE="page" ORDERLABEL="416">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_216.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_216.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_217.jpg" ORDER="217" TYPE="page" ORDERLABEL="417">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_217.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_217.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_218.jpg" ORDER="218" TYPE="page" ORDERLABEL="420">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_218.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_218.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_219.jpg" ORDER="219" TYPE="page" ORDERLABEL="421">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_219.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_219.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_220.jpg" ORDER="220" TYPE="page" ORDERLABEL="424">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_220.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_220.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_221.jpg" ORDER="221" TYPE="page" ORDERLABEL="425">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_221.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_221.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_222.jpg" ORDER="222" TYPE="page" ORDERLABEL="428">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_222.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_222.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_223.jpg" ORDER="223" TYPE="page" ORDERLABEL="429">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_223.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_223.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_224.jpg" ORDER="224" TYPE="page" ORDERLABEL="432">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_224.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_224.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_225.jpg" ORDER="225" TYPE="page" ORDERLABEL="433">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_225.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_225.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_226.jpg" ORDER="226" TYPE="page" ORDERLABEL="436">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_226.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_226.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_227.jpg" ORDER="227" TYPE="page" ORDERLABEL="437">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_227.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_227.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_228.jpg" ORDER="228" TYPE="page" ORDERLABEL="440">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_228.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_228.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_229.jpg" ORDER="229" TYPE="page" ORDERLABEL="441">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_229.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_229.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_230.jpg" ORDER="230" TYPE="page" ORDERLABEL="444">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_230.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_230.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_231.jpg" ORDER="231" TYPE="page" ORDERLABEL="445">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_231.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_231.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_232.jpg" ORDER="232" TYPE="page" ORDERLABEL="448">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_232.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_232.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_233.jpg" ORDER="233" TYPE="page" ORDERLABEL="449">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_233.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_233.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_234.jpg" ORDER="234" TYPE="page" ORDERLABEL="452">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_234.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_234.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_235.jpg" ORDER="235" TYPE="page" ORDERLABEL="453">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_235.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_235.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_236.jpg" ORDER="236" TYPE="page" ORDERLABEL="">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_236.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_236.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_237.jpg" ORDER="237" TYPE="page" ORDERLABEL="">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_237.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_237.jpg"/>
+            </mets:div>
+                    <mets:div ID="PHYSICALDIV_ES_70_1_238.jpg" ORDER="238" TYPE="page" ORDERLABEL="">
+                <mets:fptr FILEID="DEFAULT_ES_70_1_238.jpg"/>
+                <mets:fptr FILEID="THUMB_ES_70_1_238.jpg"/>
+            </mets:div>
+                </mets:div> 
+    </mets:structMap>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div ID="LOGICALDIV" TYPE="contents" DMDID="DMDSEC" ADMID="AMDSEC" LABEL="Inhalt">
+            <!-- type muss aus http://dfg-viewer.de/strukturdatenset/ kommen section; cover_front, cover_back, title_page-->
+                                                                                                                                                                                                        <mets:div ID="LOGICALDIV_CHP_ES_70_1_003.jpg" TYPE="chapter" LABEL="Text"/>
+                                                                                                                                                                                                    <mets:div ID="LOGICALDIV_CHP_ES_70_1_005.jpg" TYPE="chapter" LABEL="Liste"/>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </mets:div>
+    </mets:structMap>
+    <mets:structLink  ID="STRUCTLINKSEC">
+                    <mets:smLink xlink:from="LOGICALDIV_CHP_ES_70_1_003.jpg" xlink:to="PHYSICALDIV_ES_70_1_003.jpg"/>
+                    <mets:smLink xlink:from="LOGICALDIV_CHP_ES_70_1_005.jpg" xlink:to="PHYSICALDIV_ES_70_1_005.jpg"/>
+            </mets:structLink>
+</mets:mets>
