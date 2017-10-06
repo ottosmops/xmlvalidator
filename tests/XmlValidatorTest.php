@@ -1,8 +1,12 @@
 <?php
+
+namespace Ottosmops\Xmlvalidator\Tests;
  
 use Ottosmops\Xmlvalidator\XmlValidator;
- 
-class XmlValidatorTest extends \PHPUnit_Framework_TestCase {
+
+use PHPUnit\Framework\TestCase;
+
+class XmlValidatorTest extends TestCase {
 
     /*
         mets_001.xml => valide
