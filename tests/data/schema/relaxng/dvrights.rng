@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DFG-Viewer METS-Anwedungsprofil 2.1
+  
+  Rechteangaben
+  
+  Timestamp: <2015-11-17 10:04:33 Maus>
+  Autor: David Maus <maus@hab.de>
+  
+-->
+<grammar ns="http://dfg-viewer.de/" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <ref name="rights"/>
+  </start>
+  <define name="rights">
+    <element name="rights">
+      <ref name="owner"/>
+      <ref name="ownerLogo"/>
+      <ref name="ownerSiteURL"/>
+      <ref name="ownerContact"/>
+      <optional>
+        <ref name="sponsor"/>
+      </optional>
+      <optional>
+        <ref name="sponsorLogo"/>
+      </optional>
+      <optional>
+        <ref name="sponsorSiteURL"/>
+      </optional>
+      <optional>
+        <ref name="license"/>
+      </optional>
+    </element>
+  </define>
+  <define name="owner">
+    <element name="owner">
+      <text/>
+    </element>
+  </define>
+  <define name="ownerLogo">
+    <element name="ownerLogo">
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="ownerSiteURL">
+    <element name="ownerSiteURL">
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="ownerContact">
+    <element name="ownerContact">
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="sponsor">
+    <element name="sponsor">
+      <text/>
+    </element>
+  </define>
+  <define name="sponsorLogo">
+    <element name="sponsorLogo">
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="sponsorSiteURL">
+    <element name="sponsorSiteURL">
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="license">
+    <element name="license">
+      <choice>
+        <value>pdm</value>
+        <value>cc0</value>
+        <value>cc-by</value>
+        <value>cc-by-sa</value>
+        <value>cc-by-nd</value>
+        <value>cc-by-nc</value>
+        <value>cc-by-nc-sa</value>
+        <value>cc-by-nc-nd</value>
+        <value>reserved</value>
+      </choice>
+    </element>
+  </define>
+</grammar>

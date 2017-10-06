@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets ID="ba_001" OBJID="ba_001" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:dv="http://dfg-viewer.de/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mets="http://www.loc.gov/METS/"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
+                        http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd"
+                                >
+    <mets:metsHdr ID="HDR_ba_001" CREATEDATE="2017-10-04T16:27:02+00:00"
+        RECORDSTATUS="completed">
+        <mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+            <mets:name>k &amp; r Firmenarchiv</mets:name>
+        </mets:agent>
+        <mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
+            <mets:name>Andreas Kraenzle</mets:name>
+        </mets:agent>
+    </mets:metsHdr>
+    <mets:dmdSec ID="DMDSEC">
+        <mets:mdWrap ID="MODSSEC" MDTYPE="MODS" MIMETYPE="text/xml">
+            <mets:xmlData>
+                <mods:mods>
+                    <mods:identifier type="local">KRA 1</mods:identifier>
+                    <mods:titleInfo>
+                        <mods:title>Aristeasbrief</mods:title>
+                    </mods:titleInfo>
+                    <mods:name type="personal">
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                        </mods:role>
+                        <mods:namePart type="family">Kränzle</mods:namePart>
+                        <mods:namePart type="given">Andreas</mods:namePart>
+                    </mods:name>
+                    <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
+                    <mods:originInfo>
+                        <mods:dateIssued encoding="iso8601">2017</mods:dateIssued>
+                    </mods:originInfo>
+                    <mods:language>
+                        <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+                    </mods:language>
+                    <mods:language>
+                        <mods:languageTerm type="code" authority="iso639-2b">ger</mods:languageTerm>
+                    </mods:language>
+                    <mods:physicalDescription>
+                        <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+                    </mods:physicalDescription>
+                    <mods:abstract type="content">abstract</mods:abstract>
+                    <mods:identifier type="doi">doi</mods:identifier>
+                </mods:mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="AMDSEC">
+        <mets:rightsMD ID="RIGHTSMD">
+            <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                <mets:xmlData>
+                    <!-- https://github.com/dmj/dfgviewer-schema -->
+                    <dv:rights>
+<!-- <dv:owner>k &amp; r</dv:owner> -->
+                        <dv:ownerLogo>https://www.kr.anton.ch</dv:ownerLogo>
+                        <dv:ownerSiteURL>https://www.kr.anton.ch</dv:ownerSiteURL>
+                        <dv:ownerContact>mailto:info@k-r.ch</dv:ownerContact>
+                        <dv:license>pdr</dv:license>
+                    </dv:rights>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:digiprovMD ID="DIGIPROVMD">
+            <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                <mets:xmlData>
+                    <dv:links xmlns:dv="http://dfg-viewer.de/">
+                        <dv:reference linktext="Katalog">
+                            https://www.kr.anton.ch</dv:reference>
+                    </dv:links>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:fileSec ID="FILESEC">
+        <mets:fileGrp USE="DEFAULT">
+            <mets:file ID="DEFAULT_test_01.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/default/test_01.jpg"/>
+            </mets:file>
+            <mets:file ID="DEFAULT_test_02.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/default/test_02.jpg"/>
+            </mets:file>
+            <mets:file ID="DEFAULT_test_03.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/default/test_03.jpg"/>
+            </mets:file>
+            <mets:file ID="DEFAULT_test_04.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/default/test_04.jpg"/>
+            </mets:file>
+            <mets:file ID="DEFAULT_test_05.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/default/test_05.jpg"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="THUMBS">
+            <mets:file ID="THUMB_test_01.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/thumbs/test_01.jpg"/>
+            </mets:file>
+            <mets:file ID="THUMB_test_02.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/thumbs/test_02.jpg"/>
+            </mets:file>
+            <mets:file ID="THUMB_test_03.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/thumbs/test_03.jpg"/>
+            </mets:file>
+            <mets:file ID="THUMB_test_04.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/thumbs/test_04.jpg"/>
+            </mets:file>
+            <mets:file ID="THUMB_test_05.jpg" MIMETYPE="image/jpeg">
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://metsmaker.k-r.ch/test/thumbs/test_05.jpg"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="PHYSICAL">
+        <mets:div ID="PHYSICALDIV" TYPE="physSequence" DMDID="DMDSEC" ADMID="AMDSEC">
+            <mets:div ID="PHYSICALDIV_test_01.jpg" ORDER="1" TYPE="page" ORDERLABEL="">
+                <mets:fptr FILEID="DEFAULT_test_01.jpg"/>
+                <mets:fptr FILEID="THUMB_test_01.jpg"/>
+            </mets:div>
+            <mets:div ID="PHYSICALDIV_test_02.jpg" ORDER="2" TYPE="page" ORDERLABEL="Seite 1">
+                <mets:fptr FILEID="DEFAULT_test_02.jpg"/>
+                <mets:fptr FILEID="THUMB_test_02.jpg"/>
+            </mets:div>
+            <mets:div ID="PHYSICALDIV_test_03.jpg" ORDER="3" TYPE="page" ORDERLABEL="Seite 2">
+                <mets:fptr FILEID="DEFAULT_test_03.jpg"/>
+                <mets:fptr FILEID="THUMB_test_03.jpg"/>
+            </mets:div>
+            <mets:div ID="PHYSICALDIV_test_04.jpg" ORDER="4" TYPE="page" ORDERLABEL="Seite 3">
+                <mets:fptr FILEID="DEFAULT_test_04.jpg"/>
+                <mets:fptr FILEID="THUMB_test_04.jpg"/>
+            </mets:div>
+            <mets:div ID="PHYSICALDIV_test_05.jpg" ORDER="5" TYPE="page" ORDERLABEL="Seite 4">
+                <mets:fptr FILEID="DEFAULT_test_05.jpg"/>
+                <mets:fptr FILEID="THUMB_test_05.jpg"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div ID="LOGICALDIV" TYPE="contents" DMDID="DMDSEC" ADMID="AMDSEC" LABEL="Inhalt">
+            <mets:div ID="LOGICALDIV_CHP_test_01.jpg" TYPE="chapter" LABEL="Erstes Kapitel"/>
+            <mets:div ID="LOGICALDIV_SEC_test_01.jpg" TYPE="section" LABEL="Erstes Unterkapitel"/>
+            <mets:div ID="LOGICALDIV_STR_1_test_01.jpg" TYPE="title_page" LABEL="Titelblatt"/>
+            <mets:div ID="LOGICALDIV_SEC_test_03.jpg" TYPE="section" LABEL="Zweites Unterkapitel"/>
+        </mets:div>
+    </mets:structMap>
+    <mets:structLink ID="STRUCTLINKSEC">
+        <mets:smLink xlink:from="LOGICALDIV_CHP_test_01.jpg" xlink:to="PHYSICALDIV_test_01.jpg"/>
+        <mets:smLink xlink:from="LOGICALDIV_SEC_test_01.jpg" xlink:to="PHYSICALDIV_test_01.jpg"/>
+        <mets:smLink xlink:from="LOGICALDIV_STR_1_test_01.jpg" xlink:to="PHYSICALDIV_test_01.jpg"/>
+        <mets:smLink xlink:from="LOGICALDIV_SEC_test_03.jpg" xlink:to="PHYSICALDIV_test_03.jpg"/>
+    </mets:structLink>
+</mets:mets>

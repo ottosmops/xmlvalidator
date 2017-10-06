@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0" startMode="document">
+  <mode name="document">
+    <namespace ns="http://www.openarchives.org/OAI/2.0/">
+      <validate schema="http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"/>
+    </namespace>
+    <namespace ns="http://www.loc.gov/METS/">
+      <attach/>
+      <validate schema="http://www.loc.gov/standards/mets/mets.xsd">
+        <context path="dmdSec/mdWrap/xmlData" useMode="dmdSec"/>
+        <context path="amdSec/rightsMD/mdWrap/xmlData" useMode="rightsMD"/>
+        <context path="amdSec/digiprovMD/mdWrap/xmlData" useMode="digiprovMD"/>
+      </validate>
+    </namespace>
+    <anyNamespace>
+      <attach/>
+      <allow/>
+    </anyNamespace>
+  </mode>
+  <mode name="dmdSec">
+    <namespace ns="http://www.loc.gov/mods/v3">
+      <attach/>
+      <validate schema="http://www.loc.gov/standards/mods/v3/mods.xsd"/>
+    </namespace>
+    <anyNamespace>
+      <reject/>
+    </anyNamespace>
+  </mode>
+  <mode name="digiprovMD">
+    <namespace ns="http://dfg-viewer.de/">
+      <attach/>
+      <validate schema="../relaxng/dvlinks.rng"/>
+    </namespace>
+    <anyNamespace>
+      <reject/>
+    </anyNamespace>
+  </mode>
+  <mode name="rightsMD">
+    <namespace ns="http://dfg-viewer.de/">
+      <attach/>
+      <validate schema="../relaxng/dvrights.rng"/>
+    </namespace>
+    <anyNamespace>
+      <reject/>
+    </anyNamespace>
+  </mode>
+</rules>

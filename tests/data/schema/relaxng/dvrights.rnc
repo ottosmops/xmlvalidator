@@ -1,0 +1,47 @@
+# DFG-Viewer METS-Anwedungsprofil 2.1
+#
+# Rechteangaben
+#
+# Timestamp: <2015-11-17 10:04:33 Maus>
+# Autor: David Maus <maus@hab.de>
+#
+
+default namespace = "http://dfg-viewer.de/"
+
+start = rights
+
+rights =
+   element rights {
+      owner,
+      ownerLogo,
+      ownerSiteURL,
+      ownerContact,
+      sponsor?,
+      sponsorLogo?,
+      sponsorSiteURL?,
+      license?
+   }
+
+owner =
+   element owner { text }
+
+ownerLogo =
+   element ownerLogo { xsd:anyURI }
+
+ownerSiteURL =
+   element ownerSiteURL { xsd:anyURI }
+
+ownerContact =
+   element ownerContact { xsd:anyURI }
+
+sponsor =
+   element sponsor { text }
+
+sponsorLogo =
+   element sponsorLogo { xsd:anyURI }
+
+sponsorSiteURL =
+   element sponsorSiteURL { xsd:anyURI }
+
+license =
+   element license { "pdm" | "cc0" | "cc-by" | "cc-by-sa" | "cc-by-nd" | "cc-by-nc" | "cc-by-nc-sa" | "cc-by-nc-nd" | "reserved" }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DFG-Viewer METS-Anwedungsprofil 2.1
+  
+  Verweis auf Katalognachweise und lokale Präsentationen
+  
+  Autor: David Maus <maus@hab.de>
+  
+-->
+<grammar ns="http://dfg-viewer.de/" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <ref name="links"/>
+  </start>
+  <define name="links">
+    <element name="links">
+      <oneOrMore>
+        <ref name="reference"/>
+      </oneOrMore>
+      <optional>
+        <ref name="presentation"/>
+      </optional>
+      <optional>
+        <ref name="sru"/>
+      </optional>
+    </element>
+  </define>
+  <define name="reference">
+    <element name="reference">
+      <optional>
+        <attribute name="linktext"/>
+      </optional>
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="presentation">
+    <element name="presentation">
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="sru">
+    <element name="sru">
+      <data type="anyURI"/>
+    </element>
+  </define>
+</grammar>

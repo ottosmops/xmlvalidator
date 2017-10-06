@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://www.loc.gov/standards/mets/mets.xsd"
+       uri="ext/mets.xsd"/>
+  <uri name="http://www.loc.gov/standards/xlink/xlink.xsd"
+       uri="ext/xlink.xsd"/>
+  <uri name="http://www.loc.gov/standards/mods/v3/mods.xsd"
+       uri="ext/mods.xsd"/>
+  <uri name="http://www.loc.gov/mods/xml.xsd"
+       uri="ext/xml.xsd"/>
+  <uri name="http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+       uri="ext/oai-pmh.xsd"/>
+</catalog>

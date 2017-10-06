@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <skos:ConceptScheme rdf:nodeID="strukturdatenset">
+    <dc:title xml:lang="de">Strukturdatenset des DFG-Viewer</dc:title>
+    <rdfs:seeAlso rdf:resource="http://dfg-viewer.de/strukturdatenset/"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:ID="additional">
+    <skos:notation>additional</skos:notation>
+    <skos:prefLabel xml:lang="de">Beilage</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">additional</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="address">
+    <skos:notation>address</skos:notation>
+    <skos:prefLabel xml:lang="de">Anrede</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">address</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="annotation">
+    <skos:notation>annotation</skos:notation>
+    <skos:prefLabel xml:lang="de">Annotation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">annotation</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="article">
+    <skos:notation>article</skos:notation>
+    <skos:prefLabel xml:lang="de">Artikel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">article</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="bachelor_thesis">
+    <skos:notation>bachelor_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Bachelorarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">bachelor thesis</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="binding">
+    <skos:notation>binding</skos:notation>
+    <skos:prefLabel xml:lang="de">Einband</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">binding</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="bookplate">
+    <skos:notation>bookplate</skos:notation>
+    <skos:prefLabel xml:lang="de">Exlibris</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">bookplate</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="chapter">
+    <skos:notation>chapter</skos:notation>
+    <skos:prefLabel xml:lang="de">Kapitel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">chapter</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="collation">
+    <skos:notation>collation</skos:notation>
+    <skos:prefLabel xml:lang="de">Bogensignatur</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">collation</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="colophon">
+    <skos:notation>colophon</skos:notation>
+    <skos:prefLabel xml:lang="de">Kolophon</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">colophon</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="contained_work">
+    <skos:notation>contained_work</skos:notation>
+    <skos:prefLabel xml:lang="de">Beigefügtes oder Enthaltenes Werk</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">contained work</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="contents">
+    <skos:notation>contents</skos:notation>
+    <skos:prefLabel xml:lang="de">Inhaltsverzeichnis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">table of contents</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="corrigenda">
+    <skos:notation>corrigenda</skos:notation>
+    <skos:prefLabel xml:lang="de">Errata</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">corrigenda</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="cover">
+    <skos:notation>cover</skos:notation>
+    <skos:prefLabel xml:lang="de">Deckel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cover</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="cover_back">
+    <skos:notation>cover_back</skos:notation>
+    <skos:prefLabel xml:lang="de">Rückdeckel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">back cover</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="cover_front">
+    <skos:notation>cover_front</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorderdeckel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">front cover</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="day">
+    <skos:notation>day</skos:notation>
+    <skos:prefLabel xml:lang="de">Tag</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">day</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="dedication">
+    <skos:notation>dedication</skos:notation>
+    <skos:prefLabel xml:lang="de">Widmung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">dedication</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="diploma_thesis">
+    <skos:notation>diploma_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Diplomarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">diploma thesis</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="doctoral_thesis">
+    <skos:notation>doctoral_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Dissertation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">doctoral thesis</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="edge">
+    <skos:notation>edge</skos:notation>
+    <skos:prefLabel xml:lang="de">Schnitt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">edge</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="endsheet">
+    <skos:notation>endsheet</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorsatz</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">endsheet</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="engraved_titlepage">
+    <skos:notation>engraved_titlepage</skos:notation>
+    <skos:prefLabel xml:lang="de">Kupfertitel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">engraved titlepage</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="entry">
+    <skos:notation>entry</skos:notation>
+    <skos:prefLabel xml:lang="de">Eintrag</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">entry</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="fascicle">
+    <skos:notation>fascicle</skos:notation>
+    <skos:prefLabel xml:lang="de">Faszikel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">fascicle</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="fragment">
+    <skos:notation>fragment</skos:notation>
+    <skos:prefLabel xml:lang="de">Fragment</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">fragment</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="habilitation_thesis">
+    <skos:notation>habilitation_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Habilitation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">habilitation thesis</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="illustration">
+    <skos:notation>illustration</skos:notation>
+    <skos:prefLabel xml:lang="de">Illustration</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">illustration</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="imprint">
+    <skos:notation>imprint</skos:notation>
+    <skos:prefLabel xml:lang="de">Impressum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">imprint</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="index">
+    <skos:notation>index</skos:notation>
+    <skos:prefLabel xml:lang="de">Register</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">index</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="initial_decoration">
+    <skos:notation>initial_decoration</skos:notation>
+    <skos:prefLabel xml:lang="de">Initialschmuck</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">initial decoration</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="issue">
+    <skos:notation>issue</skos:notation>
+    <skos:prefLabel xml:lang="de">Ausgabe</skos:prefLabel>
+    <skos:altLabel xml:lang="de">Heft</skos:altLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  <skos:prefLabel xml:lang="en">issue</skos:prefLabel></skos:Concept>
+  <skos:Concept rdf:ID="lecture">
+    <skos:notation>lecture</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorlesung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lecture</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="letter">
+    <skos:notation>letter</skos:notation>
+    <skos:prefLabel xml:lang="de">Brief</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">letter</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="magister_thesis">
+    <skos:notation>magister_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Magisterarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">magister thesis</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="manuscript">
+    <skos:notation>manuscript</skos:notation>
+    <skos:prefLabel xml:lang="de">Handschrift</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">manuscript</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="map">
+    <skos:notation>map</skos:notation>
+    <skos:prefLabel xml:lang="de">Karte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">map</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="master_thesis">
+    <skos:notation>master_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Masterarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">master thesis</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="monograph">
+    <skos:notation>monograph</skos:notation>
+    <skos:prefLabel xml:lang="de">Monographie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">monograph</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="month">
+    <skos:notation>month</skos:notation>
+    <skos:prefLabel xml:lang="de">Monat</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">month</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="multivolume_work">
+    <skos:notation>multivolume_work</skos:notation>
+    <skos:prefLabel xml:lang="de">Mehrbändiges Werk</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">multivolume work</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="musical_notation">
+    <skos:notation>musical_notation</skos:notation>
+    <skos:prefLabel xml:lang="de">Musiknotation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">musical notation</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="newspaper">
+    <skos:notation>newspaper</skos:notation>
+    <skos:prefLabel xml:lang="de">Zeitung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">newspaper</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="ornament">
+    <skos:notation>ornament</skos:notation>
+    <skos:prefLabel xml:lang="de">Buchschmuck</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">ornament</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="paper">
+    <skos:notation>paper</skos:notation>
+    <skos:prefLabel xml:lang="de">Vortrag</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="paste_down">
+    <skos:notation>paste_down</skos:notation>
+    <skos:prefLabel xml:lang="de">Spiegel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">paste down</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="periodical">
+    <skos:notation>periodical</skos:notation>
+    <skos:prefLabel xml:lang="de">Periodica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">periodical</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="preface">
+    <skos:notation>preface</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorwort</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">preface</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="preprint">
+    <skos:notation>preprint</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorabdruck</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">preprint</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="printers_mark">
+    <skos:notation>printers_mark</skos:notation>
+    <skos:prefLabel xml:lang="de">Druckermarke</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">printers mark</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="privileges">
+    <skos:notation>privileges</skos:notation>
+    <skos:prefLabel xml:lang="de">Privilegien</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">privileges</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="proceeding">
+    <skos:notation>proceeding</skos:notation>
+    <skos:prefLabel xml:lang="de">Tagungsband</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">proceeding</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="provenance">
+    <skos:notation>provenance</skos:notation>
+    <skos:prefLabel xml:lang="de">Besitznachweis</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">provenance</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="report">
+    <skos:notation>report</skos:notation>
+    <skos:prefLabel xml:lang="de">Bericht</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">report</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="research_paper">
+    <skos:notation>research_paper</skos:notation>
+    <skos:prefLabel xml:lang="de">Forschungsarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">research paper</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="scheme">
+    <skos:notation>scheme</skos:notation>
+    <skos:prefLabel xml:lang="de">Schema</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">scheme</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="section">
+    <skos:notation>section</skos:notation>
+    <skos:prefLabel xml:lang="de">Abschnitt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">section</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="spine">
+    <skos:notation>spine</skos:notation>
+    <skos:prefLabel xml:lang="de">Rücken</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">spine</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="stamp">
+    <skos:notation>stamp</skos:notation>
+    <skos:prefLabel xml:lang="de">Stempel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">stamp</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="study">
+    <skos:notation>study</skos:notation>
+    <skos:prefLabel xml:lang="de">Studie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">study</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="table">
+    <skos:notation>table</skos:notation>
+    <skos:prefLabel xml:lang="de">Tabelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">table</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="text">
+    <skos:notation>text</skos:notation>
+    <skos:prefLabel xml:lang="de">Text</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">text</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="title_page">
+    <skos:notation>title_page</skos:notation>
+    <skos:prefLabel xml:lang="de">Titelblatt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">title page</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="verse">
+    <skos:notation>verse</skos:notation>
+    <skos:prefLabel xml:lang="de">Verse</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">verse</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="volume">
+    <skos:notation>volume</skos:notation>
+    <skos:prefLabel xml:lang="de">Band</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">volume</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="year">
+    <skos:notation>year</skos:notation>
+    <skos:prefLabel xml:lang="de">Jahr</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">year</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,33 @@
+# DFG-Viewer METS-Anwedungsprofil 2.1
+#
+# Verweis auf Katalognachweise und lokale Präsentationen
+#
+# Autor: David Maus <maus@hab.de>
+#
+
+default namespace = "http://dfg-viewer.de/"
+
+start = links
+
+links =
+   element links {
+      reference+,
+      presentation?,
+      sru?
+   }
+
+reference =
+   element reference {
+      attribute linktext { text }?,
+      xsd:anyURI
+   }
+
+presentation =
+   element presentation {
+      xsd:anyURI
+   }
+
+sru =
+   element sru {
+      xsd:anyURI
+   }
