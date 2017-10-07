@@ -2,7 +2,7 @@
 
 require('vendor/autoload.php');
 
-use Ottosmops\Xmlvalidator\XmlValidator;
+use Ottosmops\XmlValidator\XmlValidator;
 
 class test {
     public static function index() {

@@ -1,6 +1,6 @@
 <?php 
 
-namespace Ottosmops\Xmlvalidator\Exceptions;
+namespace Ottosmops\XmlValidator\Exceptions;
 
 use Exception;
 

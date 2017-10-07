@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ottosmops\\Xmlvalidator\\": "src/"
+            "Ottosmops\\XmlValidator\\": "src/"
         }
     },
     "autoload-dev": {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Ottosmops\Xmlvalidator;
+namespace Ottosmops\XmlValidator;
 
-use Ottosmops\Xmlvalidator\Exceptions\FileNotFoundException;
-use Ottosmops\Xmlvalidator\Exceptions\UrlNotFoundException;
-use Ottosmops\Xmlvalidator\Exceptions\SchemaExtensionNotAllowed;
+use Ottosmops\XmlValidator\Exceptions\FileNotFoundException;
+use Ottosmops\XmlValidator\Exceptions\UrlNotFoundException;
+use Ottosmops\XmlValidator\Exceptions\SchemaExtensionNotAllowed;
 
 class XmlValidator {
 

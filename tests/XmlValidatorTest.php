@@ -1,8 +1,6 @@
 <?php
-
-namespace Ottosmops\Xmlvalidator\Tests;
  
-use Ottosmops\Xmlvalidator\XmlValidator;
+use Ottosmops\XmlValidator\XmlValidator;
 
 use PHPUnit\Framework\TestCase;
 
@@ -13,7 +11,7 @@ class XmlValidatorTest extends TestCase {
         mets_002.xml => invalide mods
         mets_003.xml => invalide mets
         mets_004.xml => invalide dv:rights
-        mets_005.xml => invalide mets dfg (strukturdaten)
+        mets_005.xml => valide mets but invalide dfg-mets (strukturdaten)
      */
 
     /**
@@ -31,6 +29,11 @@ class XmlValidatorTest extends TestCase {
                      'nsuri'  => 'http://www.loc.gov/mods/v3',
                      'root'   => 'mods',
                      'schema' => 'http://www.loc.gov/standards/mods/v3/mods-3-4.xsd',],
+                    ['file'   => 'tests/data/invalide/mets_005.xml',
+                     'ns'     => 'mets',
+                     'nsuri'  => 'http://www.loc.gov/METS/',
+                     'root'   => 'mets',
+                     'schema' => 'http://www.loc.gov/standards/mets/mets.xsd',],
                     ];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
@@ -146,7 +149,7 @@ class XmlValidatorTest extends TestCase {
                    'root'   => 'mets',
                    'schema' => 'tests/data/schema/schematron/mets.xsl'
                    ];
-        $this->expectException(\Ottosmops\Xmlvalidator\Exceptions\FileNotFoundException::class);
+        $this->expectException(\Ottosmops\XmlValidator\Exceptions\FileNotFoundException::class);
         $validator = new XmlValidator($option); 
     }
 
@@ -161,7 +164,7 @@ class XmlValidatorTest extends TestCase {
                    'root'   => 'mets',
                    'schema' => 'schema/schematron/mets.xsl'
                    ];
-        $this->expectException(\Ottosmops\Xmlvalidator\Exceptions\FileNotFoundException::class);
+        $this->expectException(\Ottosmops\XmlValidator\Exceptions\FileNotFoundException::class);
         $validator = new XmlValidator($option); 
     }
 
@@ -175,7 +178,7 @@ class XmlValidatorTest extends TestCase {
                      'nsuri'  => 'http://www.loc.gov/METS/',
                      'root'   => 'mets',
                      'schema' => 'tests/data/valide/mets_001.xml']; // file must exist
-        $this->expectException(\Ottosmops\Xmlvalidator\Exceptions\SchemaExtensionNotAllowed::class);
+        $this->expectException(\Ottosmops\XmlValidator\Exceptions\SchemaExtensionNotAllowed::class);
         $validator = new XmlValidator($option); 
     }
 
