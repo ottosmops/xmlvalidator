@@ -14,8 +14,8 @@ class test {
 
         $validator = new XmlValidator($option);
         if (!$validator->validate()) {
-            echo "validated mets: is not valide".PHP_EOL;
-            print_r($validator->getErrors());
+            print("validated mets: is not valide".PHP_EOL);
+            print($validator->getErrors());
         } else {
             print("validated mets: is valide".PHP_EOL);
         }

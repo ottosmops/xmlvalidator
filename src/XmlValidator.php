@@ -40,7 +40,7 @@ class XmlValidator {
         $this->root   = $options['root'];
         $this->debug('root: ' . $this->root);
         
-        if (is_file($options['schema']) || self::url_exists($options['schema'])) {
+        if (is_file($options['schema']) || self::urlExists($options['schema'])) {
              $this->schema = $options['schema'];
              $this->debug('schema: ' . $this->schema);
         } else {
@@ -74,7 +74,7 @@ class XmlValidator {
             }
             if (!$part->schemaValidate($this->schema)) {
                 foreach(libxml_get_errors() as $error) {
-                    $this->messages[] = 'error: ' . trim($error->message) .' (line '.$error->line. ')';
+                    $this->error(trim($error->message) .' (line '.$error->line. ')');
                 }
                 return false;
             }
@@ -95,7 +95,7 @@ class XmlValidator {
             }
             if (!$part->relaxNGValidate($this->schema)) {
                 foreach(libxml_get_errors() as $error) {
-                    $this->messages[] = 'error: ' . trim($error->message) .' (line '.$error->line. ')';
+                    $this->error(trim($error->message) .' (line '.$error->line. ')');
                 }
                 $this->debug('is not valide');
                 return false;
@@ -131,7 +131,7 @@ class XmlValidator {
             $node_list = $xml->getElementsByTagName('failed-assert');
             
             foreach($node_list as $node) {
-                $this->messages[] = 'error: ' . trim($node->textContent);
+                $this->error(trim($node->textContent));
             }
             $this->debug('is not valide');
             return false;
@@ -164,9 +164,9 @@ class XmlValidator {
         $this->xml->load($this->file);
     }
 
-    static function url_exists($url)
+    public static function urlExists($url)
     {
-        if(self::is_a_url($url)) {
+        if(self::isUrl($url)) {
             $headers = get_headers($url);
         } else {
             return false;
@@ -178,7 +178,7 @@ class XmlValidator {
         return true;
     }
 
-    static function is_a_url($url)
+    public static function isUrl($url)
     {
         if (filter_var($url, FILTER_VALIDATE_URL) === FALSE) {
             return false;

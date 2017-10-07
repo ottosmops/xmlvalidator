@@ -2,7 +2,7 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
 [![Latest Stable Version](https://poser.pugx.org/ottosmops/XmlValidator/v/stable?format=flat-square)](https://packagist.org/packages/ottosmops/XmlValidator)
-[![Build Status](https://img.shields.io/travis/ottosmops/XmlValidator/master.svg?style=flat-square)](https://travis-ci.org/ottomops/XmlValidator)
+[![Build Status](https://travis-ci.org/ottosmops/xmlvalidator.svg?branch=master)](https://travis-ci.org/ottosmops/xmlvalidator)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/6473aa57-9e90-448d-beb8-626e7f152f45/mini.png)](https://insight.sensiolabs.com/projects/6473aa57-9e90-448d-beb8-626e7f152f45)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/ottosmops/XmlValidator.svg?style=flat-square)](https://packagist.org/packages/ottosmops/XmlValidator)
 
@@ -21,17 +21,17 @@ use Ottosmops\XmlValidator\XmlValidator;
 class test {
     public static function index() {
         $option = ['file'   => 'tests/data/valide/mets_001.xml',
-                   'ns'     => 'mets', 
-                   'nsuri'  => 'http://www.loc.gov/METS/',
-                   'root'   => 'mets',
-                   'schema' => 'http://www.loc.gov/standards/mets/mets.xsd'];
+                    'ns'     => 'mets',
+                    'nsuri'  => 'http://www.loc.gov/METS/',
+                    'root'   => 'mets',
+                    'schema' => 'http://www.loc.gov/standards/mets/mets.xsd'];
 
         $validator = new XmlValidator($option);
         if (!$validator->validate()) {
-            print("validated mets: is not valide" . PHP_EOL);
-            print_r($validator->getErrors());
+            print("validated mets: is not valide".PHP_EOL);
+            print($validator->getErrors());
         } else {
-            print("validated mets: is valide" . PHP_EOL);
+            print("validated mets: is valide".PHP_EOL);
         }
     }
 }
