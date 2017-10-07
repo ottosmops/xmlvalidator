@@ -12,7 +12,6 @@
             "homepage": "https://wwwk-r.ch"
         }
     ],
-    "homepage": "https://github.com/ottosmops/xml-validator",
     "require": {
         "php": ">=7.0.0"
     },
