@@ -146,7 +146,7 @@ class XmlValidatorTest extends TestCase {
                    'root'   => 'mets',
                    'schema' => 'tests/data/schema/schematron/mets.xsl'
                    ];
-        $this->expectException(Ottosmops\Xmlvalidator\Exceptions\FileNotFoundException::class);
+        $this->expectException(\Ottosmops\Xmlvalidator\Exceptions\FileNotFoundException::class);
         $validator = new XmlValidator($option); 
     }
 
@@ -161,7 +161,7 @@ class XmlValidatorTest extends TestCase {
                    'root'   => 'mets',
                    'schema' => 'schema/schematron/mets.xsl'
                    ];
-        $this->expectException(Ottosmops\Xmlvalidator\Exceptions\FileNotFoundException::class);
+        $this->expectException(\Ottosmops\Xmlvalidator\Exceptions\FileNotFoundException::class);
         $validator = new XmlValidator($option); 
     }
 
@@ -175,7 +175,7 @@ class XmlValidatorTest extends TestCase {
                      'nsuri'  => 'http://www.loc.gov/METS/',
                      'root'   => 'mets',
                      'schema' => 'tests/data/valide/mets_001.xml']; // file must exist
-        $this->expectException(Ottosmops\Xmlvalidator\Exceptions\SchemaExtensionNotAllowed::class);
+        $this->expectException(\Ottosmops\Xmlvalidator\Exceptions\SchemaExtensionNotAllowed::class);
         $validator = new XmlValidator($option); 
     }
 
