@@ -1,4 +1,6 @@
 <?php
+
+use Ottosmops\XmlValidator\Test;
  
 use Ottosmops\XmlValidator\XmlValidator;
 
