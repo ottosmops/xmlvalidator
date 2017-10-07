@@ -1,6 +1,6 @@
 <?php
 
-use Ottosmops\XmlValidator\Test;
+namespace Ottosmops\XmlValidator\Test;
  
 use Ottosmops\XmlValidator\XmlValidator;
 
