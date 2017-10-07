@@ -25,7 +25,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Ottosmops\\Xmlalidator\\Test\\": "tests/"
+            "Ottosmops\\XmlValidator\\Test\\": "tests/"
         }
     },
     "scripts": {
