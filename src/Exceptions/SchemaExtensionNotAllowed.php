@@ -7,4 +7,3 @@ use Exception;
 class SchemaExtensionNotAllowed extends Exception {
     
 }
-

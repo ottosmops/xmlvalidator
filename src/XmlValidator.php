@@ -206,7 +206,5 @@ class XmlValidator {
         return array_filter($this->messages, function($string) {
             return substr($string, 0, 5) === 'error';
         });
-    }
-
-    
+    } 
 }
