@@ -1,7 +1,6 @@
 # Validate XML or XML-parts against a Schema, RelaxNG or an XSL (Schematron)
 
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-[![Latest Stable Version](https://poser.pugx.org/ottosmops/xmlvalidator/v/stable)](https://packagist.org/packages/ottosmops/xmlvalidator)
 [![Build Status](https://travis-ci.org/ottosmops/xmlvalidator.svg?branch=master)](https://travis-ci.org/ottosmops/xmlvalidator)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/248db8b3-4969-48c5-9a61-9c7346832ff0/mini.png)](https://insight.sensiolabs.com/projects/248db8b3-4969-48c5-9a61-9c7346832ff0)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/ottosmops/XmlValidator.svg?style=flat-square)](https://packagist.org/packages/ottosmops/xmlvalidator)
@@ -10,7 +9,7 @@ This package was developed to validate Mets files for the [DFG-Viewer](http://ww
 
 ## Usage
 
-There is the one and only method ```validate``:
+There is the one and only method ```validate```:
 ```
 <?php
 

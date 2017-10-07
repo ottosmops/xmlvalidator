@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Validate XML-Files, also parts",
     "license": "MIT",
-    "keywords": ["xml", "ottosmops", "validation"],
+    "keywords": ["php", "xml", "xsd", "rng", "xsl", "schematron", "ottosmops", "validation"],
     "homepage": "https://github.com/ottosmops/validatexml",
     "authors": [
         {
