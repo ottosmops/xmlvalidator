@@ -1,5 +1,5 @@
 {
-    "name": "ottosmops/xml-validator",
+    "name": "ottosmops/xmlvalidator",
     "type": "library",
     "description": "Validate XML-Files, also parts",
     "license": "MIT",
