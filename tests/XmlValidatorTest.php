@@ -60,7 +60,7 @@ class XmlValidatorTest extends TestCase {
                      'schema' => 'https://raw.githubusercontent.com/dmj/dfgviewer-schema/master/relaxng/dvlinks.rng'],
                      ];
         foreach ($options as $option) {
-            $validator = new XmlValidator($option);
+            $validator = new \Ottosmops\XmlValidator\XmlValidator($option);
             $this->assertTrue($validator->validate()); 
         } 
     }
