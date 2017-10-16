@@ -5,6 +5,7 @@ namespace Ottosmops\XmlValidator;
 use Ottosmops\XmlValidator\Exceptions\FileNotFoundException;
 use Ottosmops\XmlValidator\Exceptions\UrlNotFoundException;
 use Ottosmops\XmlValidator\Exceptions\SchemaExtensionNotAllowed;
+use Ottosmops\XmlValidator\Exceptions\XmlPartNotFoundException;
 
 class XmlValidator {
 
@@ -78,7 +79,9 @@ class XmlValidator {
                 }
                 return false;
             }
-        } 
+        } else {
+            throw new XmlPartNotFoundException('could not find xml-part');
+        }
         return true;
     }
 
@@ -100,7 +103,9 @@ class XmlValidator {
                 $this->debug('is not valide');
                 return false;
             }
-        } 
+        } else {
+            throw new XmlPartNotFoundException('could not find xml-part');
+        }
 
         $this->debug('is valide');
         return true;
@@ -121,7 +126,9 @@ class XmlValidator {
                 $part = new \DOMDocument('1.0', 'utf-8');
                 $part->appendChild($part->importNode($node, true));
             }
-        } 
+        } else {
+            throw new XmlPartNotFoundException('could not find xml-part');
+        }
         
         $xslValid = $xslt->transformToXml($part);
 
@@ -150,7 +157,7 @@ class XmlValidator {
         $this->nodes = $xpath->query('//'. $this->ns.':'.$this->root);
 
         if($this->nodes->length === 0) {
-            $this->messages[] = 'warning: did not find a node';
+            $this->messages[] = 'warning: did not find a node for xpath: //'. $this->ns.':'.$this->root;
         }
 
         return $this->nodes;

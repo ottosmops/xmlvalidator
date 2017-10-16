@@ -7,10 +7,16 @@
 
 This package was developed to validate Mets files for the [DFG-Viewer](http://www.dfg-viewer.de). It is possible to validate only parts of a xml-file. Validation is possible with ```xsd```, ```rng``` and ```xsl``` (Schematron). To validate only parts of an XML file, specify the root element of that part. In the tests folder is a copy of  [dmj/dfgviewer-schema](https://github.com/dmj/dfgviewer-schema).
 
+## Installation
+
+```bash
+composer require ottosmops/xmlvalidator 
+```
+
 ## Usage
 
 There is the one and only method ```validate```:
-```
+```php
 <?php
 
 require('vendor/autoload.php');
