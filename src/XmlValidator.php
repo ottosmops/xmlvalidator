@@ -45,7 +45,7 @@ class XmlValidator {
              $this->schema = $options['schema'];
              $this->debug('schema: ' . $this->schema);
         } else {
-            throw new FileNotFoundException('schema not found: ' . $this->schema);
+            throw new FileNotFoundException('schema not found: ' . $options['schema']);
         }
 
         $this->type   = pathinfo($this->schema, PATHINFO_EXTENSION); 
