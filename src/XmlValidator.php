@@ -158,7 +158,6 @@ class XmlValidator {
 
         if($this->nodes->length === 0) {
             throw new XmlPartNotFoundException('could not find xml-part for xpath: '. '//'. $this->ns.':'.$this->root);
-            //$this->messages[] = 'warning: did not find a node for xpath: //'. $this->ns.':'.$this->root;
         }
 
         return $this->nodes;
