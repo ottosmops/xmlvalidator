@@ -1,7 +1,7 @@
 <?php
 
 namespace Ottosmops\XmlValidator\Test;
- 
+
 use Ottosmops\XmlValidator\XmlValidator;
 
 use PHPUnit\Framework\TestCase;
@@ -39,8 +39,8 @@ class XmlValidatorTest extends TestCase {
                     ];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
-            $this->assertTrue($validator->validate()); 
-        }  
+            $this->assertTrue($validator->validate());
+        }
     }
 
     /**
@@ -61,8 +61,8 @@ class XmlValidatorTest extends TestCase {
                      ];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
-            $this->assertTrue($validator->validate()); 
-        } 
+            $this->assertTrue($validator->validate());
+        }
     }
 
 
@@ -79,8 +79,8 @@ class XmlValidatorTest extends TestCase {
                     ];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
-            $this->assertTrue($validator->validate()); 
-        } 
+            $this->assertTrue($validator->validate());
+        }
     }
 
     /**
@@ -102,8 +102,8 @@ class XmlValidatorTest extends TestCase {
                     ];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
-            $this->assertFalse($validator->validate()); 
-        }  
+            $this->assertFalse($validator->validate());
+        }
     }
 
     /**
@@ -119,8 +119,8 @@ class XmlValidatorTest extends TestCase {
                     ]];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
-            $this->assertFalse($validator->validate()); 
-        }  
+            $this->assertFalse($validator->validate());
+        }
     }
 
     /**
@@ -136,8 +136,8 @@ class XmlValidatorTest extends TestCase {
                     ]];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
-            $this->assertFalse($validator->validate()); 
-        }  
+            $this->assertFalse($validator->validate());
+        }
     }
 
     /**
@@ -152,7 +152,7 @@ class XmlValidatorTest extends TestCase {
                    'schema' => 'tests/data/schema/schematron/mets.xsl'
                    ];
         $this->expectException(\Ottosmops\XmlValidator\Exceptions\FileNotFoundException::class);
-        $validator = new XmlValidator($option); 
+        $validator = new XmlValidator($option);
     }
 
     /**
@@ -167,7 +167,7 @@ class XmlValidatorTest extends TestCase {
                    'schema' => 'schema/schematron/mets.xsl'
                    ];
         $this->expectException(\Ottosmops\XmlValidator\Exceptions\FileNotFoundException::class);
-        $validator = new XmlValidator($option); 
+        $validator = new XmlValidator($option);
     }
 
     /**
@@ -181,8 +181,8 @@ class XmlValidatorTest extends TestCase {
                      'root'   => 'mets',
                      'schema' => 'tests/data/valide/mets_001.xml']; // file must exist
         $this->expectException(\Ottosmops\XmlValidator\Exceptions\SchemaExtensionNotAllowed::class);
-        $validator = new XmlValidator($option); 
+        $validator = new XmlValidator($option);
     }
 
 }
- 
+
