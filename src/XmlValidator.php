@@ -100,14 +100,14 @@ class XmlValidator {
                 foreach(libxml_get_errors() as $error) {
                     $this->error(trim($error->message) .' (line '.$error->line. ')');
                 }
-                $this->debug('is not valide');
+                $this->debug('is not valid');
                 return false;
             }
         } else {
             throw new XmlPartNotFoundException('could not find xml-part');
         }
 
-        $this->debug('is valide');
+        $this->debug('is valid');
         return true;
     }
 
@@ -140,11 +140,11 @@ class XmlValidator {
             foreach($node_list as $node) {
                 $this->error(trim($node->textContent));
             }
-            $this->debug('is not valide');
+            $this->debug('is not valid');
             return false;
         }
 
-        $this->debug('is valide');
+        $this->debug('is valid');
         return true;
     }
 
