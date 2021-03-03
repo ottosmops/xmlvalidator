@@ -12,6 +12,11 @@
     <skos:prefLabel xml:lang="de">Normale Zoomstufe</skos:prefLabel>
     <skos:inScheme rdf:nodeID="filegrp-use"/>
   </skos:Concept>
+  <skos:Concept rdf:ID="DOWNLOAD">
+    <skos:notation>DOWNLOAD</skos:notation>
+    <skos:prefLabel xml:lang="de">Für Downloads</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="filegrp-use"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="MAX">
     <skos:notation>MAX</skos:notation>
     <skos:prefLabel xml:lang="de">Größtmögliche statische Zoomstufe</skos:prefLabel>

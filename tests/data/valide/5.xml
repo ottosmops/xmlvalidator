@@ -3,6 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xlink="http://www.w3.org/1999/xlink" 
     xmlns:mets="http://www.loc.gov/METS/" 
+    xmlns:dv="http://dfg-viewer.de/"
     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
                         http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd">
     <mets:metsHdr ID="HDR_es-701"  CREATEDATE="2017-10-06T13:03:38+00:00" RECORDSTATUS="completed">

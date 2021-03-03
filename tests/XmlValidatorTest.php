@@ -185,4 +185,3 @@ class XmlValidatorTest extends TestCase {
     }
 
 }
-

@@ -37,10 +37,10 @@ class XmlValidator {
 
         $this->nsuri  = $options['nsuri'];
         $this->debug('nsuri: ' . $this->nsuri);
-        
+
         $this->root   = $options['root'];
         $this->debug('root: ' . $this->root);
-        
+
         if (is_file($options['schema']) || self::urlExists($options['schema'])) {
              $this->schema = $options['schema'];
              $this->debug('schema: ' . $this->schema);
@@ -48,10 +48,10 @@ class XmlValidator {
             throw new FileNotFoundException('schema not found: ' . $options['schema']);
         }
 
-        $this->type   = pathinfo($this->schema, PATHINFO_EXTENSION); 
+        $this->type   = pathinfo($this->schema, PATHINFO_EXTENSION);
         $this->debug('type: ' . $this->type);
 
-        if(!in_array($this->type, ['xsd', 'rng', 'xsl'])) {
+        if (!in_array($this->type, ['xsd', 'rng', 'xsl'])) {
             throw new SchemaExtensionNotAllowed('file-extension not allowed');
         }
 
@@ -64,7 +64,7 @@ class XmlValidator {
         $function = 'validate' . ucfirst($this->type);
         return $this->$function();
     }
-    
+
     public function validateXsd()
     {
         libxml_use_internal_errors(true);
@@ -85,10 +85,10 @@ class XmlValidator {
         return true;
     }
 
-    public function validateRng() 
+    public function validateRng()
     {
         libxml_use_internal_errors(true);
-        
+
         $this->debug('$this->nodes->length' .': '.$this->nodes->length);
 
         if ($this->nodes->length > 0) {
@@ -111,12 +111,12 @@ class XmlValidator {
         return true;
     }
 
-    public function validateXsl() 
+    public function validateXsl()
     {
         libxml_use_internal_errors(true);
 
         $domXsl = new \DOMDocument();
-        $domXsl->load($this->schema); 
+        $domXsl->load($this->schema);
 
         $xslt = new \XSLTProcessor();
         $xslt->importStylesheet($domXsl);
@@ -129,21 +129,21 @@ class XmlValidator {
         } else {
             throw new XmlPartNotFoundException('could not find xml-part');
         }
-        
+
         $xslValid = $xslt->transformToXml($part);
 
         if(strpos($xslValid, 'failed') > 0) {
             $xml = new \DOMDocument('1.0', 'utf-8');
             $xml->loadXML($xslValid);
             $node_list = $xml->getElementsByTagName('failed-assert');
-            
+
             foreach($node_list as $node) {
                 $this->error(trim($node->textContent));
             }
             $this->debug('is not valide');
             return false;
         }
-        
+
         $this->debug('is valide');
         return true;
     }
@@ -152,11 +152,12 @@ class XmlValidator {
     private function loadXPath()
     {
         $xpath = new \DOMXPath($this->xml);
+
         $xpath->registerNamespace($this->ns, $this->nsuri);
         $this->debug('xpath: ' . '//'. $this->ns.':'.$this->root);
         $this->nodes = $xpath->query('//'. $this->ns.':'.$this->root);
 
-        if($this->nodes->length === 0) {
+        if ($this->nodes->length === 0) {
             throw new XmlPartNotFoundException('could not find xml-part for xpath: '. '//'. $this->ns.':'.$this->root);
         }
 
@@ -213,5 +214,5 @@ class XmlValidator {
         return array_filter($this->messages, function($string) {
             return substr($string, 0, 5) === 'error';
         });
-    } 
+    }
 }
