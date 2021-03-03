@@ -10,7 +10,7 @@ This package was developed to validate Mets files for the [DFG-Viewer](http://ww
 ## Installation
 
 ```bash
-composer require ottosmops/xmlvalidator 
+composer require ottosmops/xmlvalidator
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ use Ottosmops\XmlValidator\XmlValidator;
 
 class test {
     public static function index() {
-        $option = ['file'   => 'tests/data/valide/mets_001.xml',
+        $option = ['file'   => 'tests/data/valid/mets_001.xml',
                     'ns'     => 'mets',
                     'nsuri'  => 'http://www.loc.gov/METS/',
                     'root'   => 'mets',
@@ -33,10 +33,10 @@ class test {
 
         $validator = new XmlValidator($option);
         if (!$validator->validate()) {
-            print("validated mets: is not valide".PHP_EOL);
+            print("validated mets: is not valid".PHP_EOL);
             print($validator->getErrors());
         } else {
-            print("validated mets: is valide".PHP_EOL);
+            print("validated mets: is valid".PHP_EOL);
         }
     }
 }

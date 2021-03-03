@@ -3,3 +3,4 @@
 composer.lock
 src/test.php
 .DS_Store
+.phpunit.result.cache

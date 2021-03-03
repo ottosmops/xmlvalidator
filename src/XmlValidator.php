@@ -174,7 +174,7 @@ class XmlValidator {
 
     public static function urlExists($url)
     {
-        if(self::isUrl($url)) {
+        if (self::isUrl($url)) {
             $headers = get_headers($url);
         } else {
             return false;
