@@ -23,19 +23,19 @@ class XmlValidatorTest extends TestCase {
     {
         $options = [['file'   => 'tests/data/valid/mets_001.xml',
                      'ns'     => 'mets',
-                     'nsuri'  => 'http://www.loc.gov/METS/',
+                     'nsuri'  => 'https://www.loc.gov/METS/',
                      'root'   => 'mets',
-                     'schema' => 'http://www.loc.gov/standards/mets/mets.xsd',],
+                     'schema' => 'https://www.loc.gov/standards/mets/mets.xsd',],
                     ['file'   => 'tests/data/valid/mets_001.xml',
                      'ns'     => 'mods',
-                     'nsuri'  => 'http://www.loc.gov/mods/v3',
+                     'nsuri'  => 'https://www.loc.gov/mods/v3',
                      'root'   => 'mods',
-                     'schema' => 'http://www.loc.gov/standards/mods/v3/mods-3-4.xsd',],
+                     'schema' => 'https://www.loc.gov/standards/mods/v3/mods-3-4.xsd',],
                     ['file'   => 'tests/data/invalid/mets_005.xml',
                      'ns'     => 'mets',
-                     'nsuri'  => 'http://www.loc.gov/METS/',
+                     'nsuri'  => 'https://www.loc.gov/METS/',
                      'root'   => 'mets',
-                     'schema' => 'http://www.loc.gov/standards/mets/mets.xsd',],
+                     'schema' => 'https://www.loc.gov/standards/mets/mets.xsd',],
                     ];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
@@ -73,7 +73,7 @@ class XmlValidatorTest extends TestCase {
     {
         $options = [['file'   => 'tests/data/valid/mets_001.xml',
                      'ns'     => 'mets',
-                     'nsuri'  => 'http://www.loc.gov/METS/',
+                     'nsuri'  => 'https://www.loc.gov/METS/',
                      'root'   => 'mets',
                      'schema' => 'tests/data/schema/schematron/mets.xsl',],
                     ];
@@ -90,15 +90,15 @@ class XmlValidatorTest extends TestCase {
     {
         $options = [['file'   => 'tests/data/invalid/mets_003.xml',
                      'ns'     => 'mets',
-                     'nsuri'  => 'http://www.loc.gov/METS/',
+                     'nsuri'  => 'https://www.loc.gov/METS/',
                      'root'   => 'mets',
-                     'schema' => 'http://www.loc.gov/standards/mets/mets.xsd'
+                     'schema' => 'https://www.loc.gov/standards/mets/mets.xsd'
                     ],
                     ['file'   => 'tests/data/invalid/mets_002.xml',
                      'ns'     => 'mods',
-                     'nsuri'  => 'http://www.loc.gov/mods/v3',
+                     'nsuri'  => 'https://www.loc.gov/mods/v3',
                      'root'   => 'mods',
-                     'schema' => 'http://www.loc.gov/standards/mods/v3/mods-3-4.xsd',]
+                     'schema' => 'https://www.loc.gov/standards/mods/v3/mods-3-4.xsd',]
                     ];
         foreach ($options as $option) {
             $validator = new XmlValidator($option);
@@ -130,7 +130,7 @@ class XmlValidatorTest extends TestCase {
     {
         $options = [['file'   => 'tests/data/invalid/mets_005.xml',
                      'ns'     => 'mets',
-                     'nsuri'  => 'http://www.loc.gov/METS/',
+                     'nsuri'  => 'https://www.loc.gov/METS/',
                      'root'   => 'mets',
                      'schema' => 'tests/data/schema/schematron/mets.xsl'
                     ]];
@@ -147,7 +147,7 @@ class XmlValidatorTest extends TestCase {
     {
         $option = ['file'   => 'mets_005.xml',
                    'ns'     => 'mets',
-                   'nsuri'  => 'http://www.loc.gov/METS/',
+                   'nsuri'  => 'https://www.loc.gov/METS/',
                    'root'   => 'mets',
                    'schema' => 'tests/data/schema/schematron/mets.xsl'
                    ];
@@ -162,7 +162,7 @@ class XmlValidatorTest extends TestCase {
     {
         $option = ['file'   => 'tests/data/invalid/mets_005.xml',
                    'ns'     => 'mets',
-                   'nsuri'  => 'http://www.loc.gov/METS/',
+                   'nsuri'  => 'https://www.loc.gov/METS/',
                    'root'   => 'mets',
                    'schema' => 'schema/schematron/mets.xsl'
                    ];
@@ -177,7 +177,7 @@ class XmlValidatorTest extends TestCase {
     {
         $option = ['file'     => 'tests/data/valid/mets_001.xml',
                      'ns'     => 'mets',
-                     'nsuri'  => 'http://www.loc.gov/METS/',
+                     'nsuri'  => 'https://www.loc.gov/METS/',
                      'root'   => 'mets',
                      'schema' => 'tests/data/valid/mets_001.xml']; // file must exist
         $this->expectException(\Ottosmops\XmlValidator\Exceptions\SchemaExtensionNotAllowed::class);

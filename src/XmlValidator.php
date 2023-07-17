@@ -23,6 +23,8 @@ class XmlValidator {
 
     protected $nodes;
 
+    protected $type;
+
     public $messages = [];
 
     public function __construct($options) {
@@ -181,7 +183,7 @@ class XmlValidator {
         }
 
         if (!stripos($headers[0],"200 OK")) {
-            throw new UrlNotFoundException('url: could not find schema');
+            throw new UrlNotFoundException('url: could not find schema ' . $url);
         }
         return true;
     }
