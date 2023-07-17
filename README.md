@@ -1,9 +1,7 @@
 # Validate XML or XML-parts against a Schema, RelaxNG or an XSL (Schematron)
 
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-
 [![Tests](https://github.com/ottosmops/xmlvalidator/actions/workflows/run-tests.yml/badge.svg)](https://github.com/ottosmops/xmlvalidator/actions/workflows/run-tests.yml/badge.svg)
-
 [![Packagist Downloads](https://img.shields.io/packagist/dt/ottosmops/XmlValidator.svg?style=flat-square)](https://packagist.org/packages/ottosmops/xmlvalidator)
 
 This package was developed to validate Mets files for the [DFG-Viewer](http://www.dfg-viewer.de). It is possible to validate only parts of a xml-file. Validation is possible with ```xsd```, ```rng``` and ```xsl``` (Schematron). To validate only parts of an XML file, specify the root element of that part. In the tests folder is a copy of  [dmj/dfgviewer-schema](https://github.com/dmj/dfgviewer-schema).
@@ -28,9 +26,9 @@ class test {
     public static function index() {
         $option = ['file'   => 'tests/data/valid/mets_001.xml',
                     'ns'     => 'mets',
-                    'nsuri'  => 'http://www.loc.gov/METS/',
+                    'nsuri'  => 'https://www.loc.gov/METS/',
                     'root'   => 'mets',
-                    'schema' => 'http://www.loc.gov/standards/mets/mets.xsd'];
+                    'schema' => 'https://www.loc.gov/standards/mets/mets.xsd'];
 
         $validator = new XmlValidator($option);
         if (!$validator->validate()) {
